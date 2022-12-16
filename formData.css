@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"] {
+    margin-bottom: 15px;
+    height: 30px;
+    width: 100%;
+    text-indent: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+}
+
+.date{
+    color: gray;
+    text-indent: 5px;
+}
+
+
+select{
+        color: gray;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        height: 30px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+}
+
+.note{
+    color:rgb(50, 38, 206);
+    font-size: 12px;
+    margin-top: 0;
+}
